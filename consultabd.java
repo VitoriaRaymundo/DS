@@ -1,9 +1,9 @@
-package inclusao;
+package consulta;
 
 import javax.swing.JOptionPane;
 import java.sql.*;
 
-public class Inclusao {
+public class Consulta {
     static final String banco = "jdbc:mysql://localhost:3306/concessionaria";
 
     public static void main(String[] args) {
@@ -47,3 +47,4 @@ public class Inclusao {
         }
     }
 }
+
